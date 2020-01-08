@@ -1,0 +1,220 @@
+/* Cores */
+.bg-azul {
+  background-color: rgb(0, 154, 222)
+}
+.bg-magenta {
+  background-color: rgb(236, 0, 128)
+}
+.bg-amarelo {
+  background-color: rgb(255, 234, 0)
+}
+.bg-cinza {
+  background-color: rgb(76, 76, 76)
+}
+.bg-preto {
+  background-color: rgb(0, 0, 0)
+}
+.bg-branco {
+  background-color: rgb(255, 255, 255)
+}
+
+/* Fonts */
+/* @font-face {
+  font-family: 'CN';
+  src: url('http://www.cartoonnetwork.com/tools/fonts/cn_bold.ttf');
+  src: url('http://www.cartoonnetwork.com/tools/fonts/cn_bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Cartoon-Slam';
+  src: url('/assets/fonts/Cartoon-Slam.ttf');
+  src: url('/assets/fonts/Cartoon-Slam.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+ font-family: "Cartoon-Slam";
+}
+
+.logo {
+  width: 180px;
+  height: 150px;
+  margin-top: -50px;
+}
+
+nav {
+  height: 60px;
+}
+
+nav .form-inline {
+  margin-top: -50px;
+}
+
+.publicidadeLateral {
+  transform: rotate(270deg);
+  margin: 70px 0 0 0;
+}
+
+.borderTopAmarela {
+  border-top: 6px solid rgb(255, 234, 0);
+}
+
+.linhaCards {
+  height: 50px;
+}
+
+/* Cards Horarios */
+.containerFlex {
+  display: flex;
+  justify-content: center;
+  max-width: 650px;
+  flex-wrap: wrap;
+}
+
+.cardsHorarios {
+  height: 100px;
+  max-width: 120px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 2px 0 2px;
+}
+
+/* Coluna Cards */
+.colunaCards {
+  border-left: 8px solid rgb(255, 234, 0);
+  border-right: 8px solid rgb(255, 234, 0);
+  margin-top: -516px;
+  margin-left: 670px;
+}
+
+.colunaItem {
+  height: 97px;
+  margin-top: 5px;
+}
+
+.colunaCards h3 {
+  transform: rotate(270deg);
+}
+
+.colunaCards img {
+  height: 80px;
+  margin-right: 20px;
+}
+
+.colunaCards .row {
+  border-bottom: 8px solid rgb(255, 234, 0);
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.space-evenly { 
+  justify-content: space-evenly; 
+}
+
+.flex-item {
+  width: 60px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Btn Azul */
+.btn-azul {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.btn-azul:hover {
+  background-color: rgba(0, 154, 222);
+}
+
+.btn-azul:not(:disabled):not(.disabled).active, .btn-azul:not(:disabled):not(.disabled):active, .show>.btn-azul.dropdown-toggle {
+  color: rgba(0, 154, 222);
+  background-color: rgb(0, 0, 0);
+  border-color: #4e555b;
+}
+
+/* Btn Magenta */
+.btn-magenta {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.btn-magenta:hover {
+  background-color: rgb(236, 0, 128);
+}
+
+.btn-magenta:not(:disabled):not(.disabled).active, .btn-magenta:not(:disabled):not(.disabled):active, .show>.btn-magenta.dropdown-toggle {
+  color: rgb(236, 0, 128);
+  background-color: rgb(0, 0, 0);
+  border-color: #4e555b;
+}
+
+/* Btn Amarelo */
+.btn-amarelo {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.btn-amarelo:hover {
+  background-color: rgb(255, 234, 0);
+}
+
+.btn-amarelo:not(:disabled):not(.disabled).active, .btn-amarelo:not(:disabled):not(.disabled):active, .show>.btn-amarelo.dropdown-toggle {
+  color: rgb(255, 234, 0);
+  background-color: rgb(0, 0, 0);
+  border-color: #4e555b;
+}
+
+/* Btn Branco */
+.btn-branco {
+  background-color: white;
+  color: rgba(76, 76, 76, 0.4)
+}
+
+.btn-branco:hover {
+  color: rgb(0, 0, 0)
+}
+
+/* Footer */
+footer .row {
+  height: 120px;
+}
+
+footer .container .row p {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.logoFooter {
+  width: 220px;
+  height: 200px;
+  margin-top: -40px;
+  margin-left: -70px;
+}
+
+/* Footer 2 */
+footer ul { 
+  list-style:none; 
+  padding:0; 
+  margin:0;
+  color: white;
+  justify-content: center;
+}
+
+footer .flex-container li {
+  font-size: 12px;
+  padding: 0px 10px 0px 30px;
+}
