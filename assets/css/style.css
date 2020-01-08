@@ -58,10 +58,6 @@ nav .form-inline {
   margin: 70px 0 0 0;
 }
 
-.borderTopAmarela {
-  border-top: 6px solid rgb(255, 234, 0);
-}
-
 .linhaCards {
   height: 50px;
 }
@@ -84,28 +80,52 @@ nav .form-inline {
 
 /* Coluna Cards */
 .colunaCards {
-  border-left: 8px solid rgb(255, 234, 0);
-  border-right: 8px solid rgb(255, 234, 0);
   margin-top: -516px;
   margin-left: 670px;
+  padding-bottom: 4px;
 }
 
 .colunaItem {
-  height: 97px;
-  margin-top: 5px;
+  max-height: 100px;
+  min-height: 100px;
+  margin: 4px 2px 4px 2px;
+  padding: 0px 0px 0px 2px;
+}
+
+.cardHora {
+  position: relative; 
+  height: 100px; 
+  margin: 0px 2px 0px 2px; 
+  padding: 0px 0px 0px 2px;
+}
+
+.cardHora h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.colunaCards h1 {
+  justify-content: center;
 }
 
 .colunaCards h3 {
   transform: rotate(270deg);
+  margin: 15px 0px 0px 5px;
+  width: 68px;
+  height: 68px;
+}
+
+.colunaCards h4 {
+  margin-top: 8px;
 }
 
 .colunaCards img {
-  height: 80px;
+  max-height: 80px;
   margin-right: 20px;
-}
-
-.colunaCards .row {
-  border-bottom: 8px solid rgb(255, 234, 0);
+  margin-top: 10px;
 }
 
 .flex-container {
@@ -218,3 +238,4 @@ footer .flex-container li {
   font-size: 12px;
   padding: 0px 10px 0px 30px;
 }
+
