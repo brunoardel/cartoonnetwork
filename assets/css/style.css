@@ -243,3 +243,14 @@ footer .flex-container li {
   padding: 0px 10px 0px 30px;
 }
 
+/* Card Hover */
+/* Cresce */
+.cardHover {
+  transition: all 0.5s;
+    cursor: pointer;
+}
+.cardHover:hover {
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
