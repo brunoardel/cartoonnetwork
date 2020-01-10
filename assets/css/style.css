@@ -254,3 +254,46 @@ footer .flex-container li {
     transform: scale(1.1);
 }
 
+/* Avatar Box */
+.avatar-box {
+  z-index: 1;
+  width: 140px;
+  height: 140px;
+}
+
+.img-avatar { 
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 10px solid rgb(0, 154, 222);
+}
+
+.descricao-avatar { 
+  color: rgb(0, 154, 222);
+  height: 120px;
+  margin-left: -200px;
+  z-index: 0;
+}
+
+.modal-body .row {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.descricao-avatar div {
+  margin-left: 60px;
+}
+
+.faca-etaria {
+  max-width: 70px;
+  max-height: 70px;
+  padding: 0px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 5px solid white;
+}
+
