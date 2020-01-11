@@ -254,7 +254,12 @@ footer .flex-container li {
     transform: scale(1.1);
 }
 
-/* Avatar Box */
+
+/* Modal O Irmão do Jorel */
+.modal-header {
+  border-bottom: 0px solid #e9ecef;
+}
+
 .avatar-box {
   z-index: 1;
   height: 140px;
@@ -269,7 +274,7 @@ footer .flex-container li {
 
 .descricao-avatar { 
   color: rgb(0, 154, 222);
-  height: 120px;
+  height: 125px;
   margin-left: -200px;
   z-index: 0;
 }
@@ -329,3 +334,72 @@ footer .flex-container li {
   color: rgb(255, 255, 255);
   text-shadow: 0 0px 0 #fff;
 }
+
+/* Modal Apenas Um Show */
+#modal-ApenasUmShow .img-avatar, #modal-Clarencio .img-avatar { 
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 10px solid rgb(255, 234, 0);
+}
+
+#modal-ApenasUmShow .footer div, #modal-Clarencio .footer div {
+  border-bottom: 4px solid rgb(236, 0, 128);
+  margin-bottom: 15px;
+}
+
+#modal-Clarencio .descricao-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-Gumball .descricao-avatar {
+  min-width: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#modal-Gumball .descricao-avatar div {
+  width: 430px;
+  margin-left: 180px;
+}
+
+#modal-ApenasUmShow .img-avatar, #modal-Clarencio .img-avatar { 
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 10px solid rgb(255, 234, 0);
+}
+
+#modal-HoraDeAventura .footer div, #modal-Steven .footer div {
+  border-bottom: 4px solid rgb(0, 154, 222);
+  margin-bottom: 15px;
+}
+
+#modal-HoraDeAventura .descricao-avatar {
+  max-width: 340px;
+  margin-left: -230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-Steven .descricao-avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-HoraDeAventura .img-avatar, #modal-Steven .img-avatar {
+  border-radius: 50%;
+  border: 10px solid rgb(236, 0, 128);
+}
+
+#modal-HoraDeAventura button i, #modal-Steven button i {
+  background-color: rgb(236, 0, 128);
+}
+
