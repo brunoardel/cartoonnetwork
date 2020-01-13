@@ -1,0 +1,19 @@
+Fundo principal já tem
+
+circulo div faca-etaria button - mesma cor
+
+modal-boy linha - mesma cor
+
+
+
+Apenas Um Show
+circulo div faca-etaria button - amarelo
+modal-body linha - magenta
+
+Irmão do Jorel
+circulo div faca-etaria button - azul
+modal-body linha - amarelo
+
+Hora da Aventura
+circulo div faca-etaria button - magenta
+modal-body linha - azul
