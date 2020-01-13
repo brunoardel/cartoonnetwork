@@ -15,7 +15,7 @@ circulo div faca-etaria button - magenta
 modal-body linha - azul
 
 
-Corrigir flex das linhas dentro dos cards
+
 Da linha SEGUNDA 18 até Personagens colocar em um container pra ver se pegam mesmo tamanho
 Colocar as cores nos botões principais
 Dentro do modal colocar padding a direita e diminuir espaço entre os ps

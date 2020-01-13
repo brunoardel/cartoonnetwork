@@ -113,6 +113,8 @@ nav .form-inline {
   min-height: 100px;
   margin: 4px 2px 4px 2px;
   padding: 0px 0px 0px 2px;
+  display: flex;
+  align-items: center;
 }
 
 .cardHora {
@@ -136,7 +138,6 @@ nav .form-inline {
 
 .colunaCards h3 {
   transform: rotate(270deg);
-  margin: 15px 0px 0px 5px;
   width: 68px;
   height: 68px;
 }
@@ -148,7 +149,10 @@ nav .form-inline {
 .colunaCards img {
   max-height: 80px;
   margin-right: 20px;
-  margin-top: 10px;
+}
+
+h3 {
+  margin: 0;
 }
 
 .flex-container {
